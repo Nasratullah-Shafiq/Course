@@ -12,6 +12,7 @@
     <link href = "../Assets/img/icons/Google_News_64.png" rel="icon" type="image/png" >
     <link href = "./Assets/CSS/bootstrap.min.css" rel=" stylesheet">       
 
+    
     <!-- Bootstrap -->
     <link href = "../img/Graduation Cap_48px.png" rel="icon" type="image/png" >
     <link href = "../Assets/CSS/all.css" rel="stylesheet">
