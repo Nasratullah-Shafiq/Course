@@ -11,7 +11,6 @@ $totalUsers = $mtd->getTotalUser();
 $totalStudent = $mtd->getTotalStudent();
 
 ?>
-
     <div class="container-fluid" id = "container-fluid">
     	<div class="row" id="row">
             <div class="col-sm-2" style="padding-left: 0px; padding-right: 0px;">
