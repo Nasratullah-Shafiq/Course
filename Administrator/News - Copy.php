@@ -12,7 +12,6 @@ include('./Assets/_Partial Components/Header.php');
     <!-- END OF LEFT SIDE BAR DIV-->
     <!-- BEGIN RIGHT SIDE BAR DIV-->
     <div class="right-side-bar">
-        
         <div class="row" style="margin-top: 0px; padding-top: 0px;">
             <div class = "col-md-12" style="padding-left: 0px;">
                 <div class="col-md-5">
