@@ -8,6 +8,7 @@ icon.onclick=()=>{
 for(let i of li){
     i.onclick = activeLi;
 }
+
 function activeLi(){
     const list = Array.from(li);
     list.forEach(e=>e.classList.remove('activeLi'));
