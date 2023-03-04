@@ -7,3 +7,4 @@ function CORSSolve(){
     };
     xhttp.open("GET","https://tiny-news-api.herokuapp.com/api/news", true);
 }
+
