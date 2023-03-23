@@ -13,6 +13,7 @@ function facebook_time_ago($timestamp){
 	$months = round($seconds/2629440);
 	$years = round($seconds/31553280);
 
+	
 	// if($seconds <=60){
 	// 	return "Just Now";
 	// }
