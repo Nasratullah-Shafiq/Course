@@ -10,6 +10,7 @@ include_once('./Assets/_Partial Components/Users.php');
 // include_once "Assets/_Partial Components/".$class.".php";
 // });
 $error='';
+
 $connect = mysqli_connect('localhost','root','', 'Change');
 if(isset($_POST['submit'])){
   $Username = mysqli_real_escape_string($connect, $_POST['Username']);
