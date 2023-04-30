@@ -6,6 +6,7 @@ $Afg_News = $mtd->getResearch();
 ?>
 
 <div class="container container-index">
+	
 	<div class="row">
 	<?php if (isset($_GET['id'])) {
  	$data = $_GET['id'];
