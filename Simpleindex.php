@@ -12,7 +12,6 @@
     <link href = "./Assets/CSS/bootstrap.min.css" rel="stylesheet" type = "text/css">
     <!-- <link href = "./Assets/CSS/Change_Admin_Panel" rel="stylesheet" type = "text/css"> -->
     
-
     <link href = "./Assets/CSS/font-awesome.css" rel="stylesheet" type = "text/css">
     <link href = "./Assets/CSS/font-awesome.min.css" rel="stylesheet" type = "text/css">
     <link href = "./Assets/CSS/Change_Course_Style.css" rel="stylesheet" type = "text/css">
