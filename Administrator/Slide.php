@@ -13,6 +13,7 @@ include('./Assets/_Partial Components/Header.php');
     <div class="right-side-bar">
         <!-- <div class="row" style="background: red;"> -->
             <div calss = "col-md-9">
+                
                 <h1 style = "color: #2C3E50"> <small> Home <i class = "fa fa-chevron-right" style = "font-size: 15px; padding-left: 5px; padding-right: 5px;"> </i> Slide </small></h1><hr>
                  <ol class="breadcrumb">
                     <li style="color: #5C9BD1"><a href="index"> <i class = "fa fa-dashboard"></i>  Dashboard </a></li>
