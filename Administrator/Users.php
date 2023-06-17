@@ -4,6 +4,7 @@ include('./Assets/_Partial Components/Header.php');
 
 ?>
 <?php 
+
             // if(isset($_POST['submit'])){
             //     $Full_Name = mysqli_real_escape_string($con, $_POST['Full_Name']);
             //     $Username = mysqli_real_escape_string($con, $_POST['Username']);
