@@ -16,6 +16,7 @@ include_once('./Assets/_Partial Components/Header.php');
 		<div class="col-md-12 col-sm-12">
 			<h2>  <?php echo $result['Heading']; ?> </h2>
 		</div>
+    
 		<div class="col-md-8">         
             <?php echo $result['Body']; ?>                             
                 
