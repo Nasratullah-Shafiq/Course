@@ -8,6 +8,7 @@ include('./Assets/_Partial Components/Header.php');
 
 <!-- BEGIN LEFT SIDE BAR -->
     <div class="left-side-bar">
+      
 
         <?php include('./Assets/_Partial Components/Navigation.php');?>
     </div>
