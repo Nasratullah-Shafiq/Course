@@ -18,8 +18,7 @@ include_once('./Assets/_Partial Components/Header.php');
 		</div>
     
 		<div class="col-md-8">         
-            <?php echo $result['Body']; ?>                             
-                
+            <?php echo $result['Body']; ?>                                     
 		</div>
 		<?php 
               }}
