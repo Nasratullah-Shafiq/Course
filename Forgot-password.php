@@ -8,7 +8,6 @@ include_once($filepath.'./Assets/_Partial Components/Users.php');
 spl_autoload_register(function($class){
 include_once "Assets/_Partial Components/".$class.".php";
 });
-
 ?>
 <!DOCTYPE html>
 <title> Sign in </title>
