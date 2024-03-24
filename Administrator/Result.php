@@ -25,7 +25,7 @@ include('./Assets/_Partial Components/Header.php');
                     <li style="color: #5C9BD1"><a href="index"> <i class = "fa fa-dashboard"></i>  Dashboard </a></li>
                     
                 </ol>
-                
+              
             </div>
             <div class = "col-sm-9">
 
