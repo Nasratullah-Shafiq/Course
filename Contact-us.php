@@ -11,6 +11,7 @@ include_once('./Assets/_Partial Components/Header.php');
 					<div class="col-md-9">
 				<form action="" method = "POST">
                     
+                
                     <div class="form-group">
                         <label for="ful-name"> Name </label>
                         <input type="text" id="Full_Name" name = "Full_Name" class="form-control" placeholder=" Name">
