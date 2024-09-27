@@ -103,11 +103,11 @@ include_once "Assets/_Partial Components/".$class.".php";
     <?php 
     // echo $error;
     ?>
-      <span class = "empty" style = "display: none;"> Wrong Username and Password </span>
+      <!-- <span class = "empty" style = "display: none;"> Wrong Username and Password </span>
       <span class = "incorrect" style = "display: none; color: red;"> Fields are empty! </span>
       <span class = "failed" style = "display: none;"> Password field empty! </span>
       <span class = "error" style = "display: none;"> Username and password did not matched </span>
-      <span class = "disable" style = "display: none;">User is Disable !</span>   
+      <span class = "disable" style = "display: none;">User is Disable !</span>    -->
 
   </div>
   <div class = "message" style="background-color: red;"> </div>
