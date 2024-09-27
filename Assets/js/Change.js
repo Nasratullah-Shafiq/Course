@@ -143,83 +143,66 @@
   });
   ////////   For User Login   //////////////////////////////////////////////////////////////////
 
-  $("#btn-signin").click(function(){
+  $("#btn-signin").click(function(event) {
+    // Prevent default form submission
+    event.preventDefault();
+  
     var Username = $("#Username").val();
     var Password = $("#Password").val();
-    var dataString = 'Username='+Username+'&Password='+Password;
+    var dataString = 'Username=' + Username + '&Password=' + Password;
+  
     $.ajax({
-      type:"POST",
-      url:"Assets/Ajax Search/getLogin.php",
+      type: "POST",
+      url: "Assets/Ajax Search/getLogin.php",
       data: dataString,
-      success: function(data){
-        if($.trim(data) == "incorrect") {
+      success: function(data) {
+        if ($.trim(data) == "incorrect") {
           $(".incorrect").show();
-          setTimeout(function(){
+          setTimeout(function() {
             $(".incorrect").fadeOut();
-          },5000);
-          $(".empty").hide();
-          $(".disable").hide();
-          $(".error").hide();
-          $(".failed").hide();
-        }
-        else if($.trim(data) == "empty") {
+          }, 5000);
+          $(".empty, .disable, .error, .failed").hide();
+        } 
+        else if ($.trim(data) == "empty") {
           $(".empty").show();
-          setTimeout(function(){
+          setTimeout(function() {
             $(".empty").fadeOut();
-          },5000);
-          $(".incorrect").hide();
-          $(".disable").hide();
-          $(".error").hide();
-          $(".failed").hide();
-        }
-        else if($.trim(data) == "failed"){
+          }, 5000);
+          $(".incorrect, .disable, .error, .failed").hide();
+        } 
+        else if ($.trim(data) == "failed") {
           $(".failed").show();
-          setTimeout(function(){
+          setTimeout(function() {
             $(".failed").fadeOut();
-          },5000);
-          $(".incorrect").hide();
-          $(".empty").hide();
-          $(".disable").hide();
-          $(".error").hide();     
-        }
-        else if($.trim(data) == "disable"){
-          $(".empty").hide();
-          $(".incorrect").hide();
-          $(".failed").hide();
+          }, 5000);
+          $(".incorrect, .empty, .disable, .error").hide();
+        } 
+        else if ($.trim(data) == "disable") {
           $(".disable").show();
-          setTimeout(function(){
+          setTimeout(function() {
             $(".disable").fadeOut();
-          },5000);
-          $(".error").hide();     
-        }
-        else if($.trim(data) == "error"){
-          $(".empty").hide();
-          $(".incorrect").hide();
-          $(".failed").hide();
-          $(".disable").hide();
+          }, 5000);
+          $(".incorrect, .empty, .failed, .error").hide();
+        } 
+        else if ($.trim(data) == "error") {
           $(".error").show();
-          setTimeout(function(){
+          setTimeout(function() {
             $(".error").fadeOut();
-          },5000);
-        }
-        // else if($.trim(data) == "Administrator"){
-        //   window.location = "Administrator/index.php"; 
-        // }
-        else{
-          if($.trim(data) == "Administrator"){
-          window.location = "Administrator/index.php"; 
-        }
-          // else($.trim(data) == "Standard"){
-            // window.location = "index.php";
-          }
-          // window.location = "Administrator/index.php"; 
-          // alert(data);
+          }, 5000);
+          $(".incorrect, .empty, .failed, .disable").hide();
+        } 
+        else if ($.trim(data) == "Administrator") {
+          window.location = "Administrator/index.php";
+        } 
+        else if ($.trim(data) == "Standard") {
+          window.location = "index.php";
         }
       }
     });
-    return true;
+  
+    return false; // prevent form submission
   });
-    $("#btn-forgot-pass").click(function(){
+      $("#btn-forgot-pass").click(function(){
     var Username = $("#Username").val();
     var Email = $("#Email").val();
 
