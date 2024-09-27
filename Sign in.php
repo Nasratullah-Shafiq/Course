@@ -9,41 +9,41 @@ include_once('./Assets/_Partial Components/Users.php');
 spl_autoload_register(function($class){
 include_once "Assets/_Partial Components/".$class.".php";
 });
-$error='';
-$connect = mysqli_connect('localhost','root','', 'Change');
-if(isset($_POST['submit'])){
-  $Username = mysqli_real_escape_string($connect, $_POST['Username']);
-  $Password = mysqli_real_escape_string($connect, md5($_POST['Password']));
+// $error='';
+// $connect = mysqli_connect('localhost','root','', 'Change');
+// if(isset($_POST['submit'])){
+//   $Username = mysqli_real_escape_string($connect, $_POST['Username']);
+//   $Password = mysqli_real_escape_string($connect, md5($_POST['Password']));
   
 
-if(($Username == "") && ($Password == "")){
-    echo $error;
+// if(($Username == "") && ($Password == "")){
+//     echo $error;
 
-  }else{
-    $sql = "SELECT * FROM Users WHERE Username = '$Username' and Password = '$Password'";
-      $result = mysqli_query($connect, $sql);
-      $count = mysqli_num_rows($result);
-      if($count>0){
-        $row = mysqli_fetch_assoc($result);
-        $_SESSION['Change_Full_Name'] = $row['Full_Name'];
-        $_SESSION['Cahange_User_ID'] = $row['User_ID'];
-        $_SESSION['Change_Username'] = $row['Username'];
-        $_SESSION['Change_Role_ID'] = $row["Role_ID"];
-        $_SESSION['IS_LOGIN'] = 'yes';
+//   }else{
+//     $sql = "SELECT * FROM Users WHERE Username = '$Username' and Password = '$Password'";
+//       $result = mysqli_query($connect, $sql);
+//       $count = mysqli_num_rows($result);
+//       if($count>0){
+//         $row = mysqli_fetch_assoc($result);
+//         $_SESSION['Change_Full_Name'] = $row['Full_Name'];
+//         $_SESSION['Cahange_User_ID'] = $row['User_ID'];
+//         $_SESSION['Change_Username'] = $row['Username'];
+//         $_SESSION['Change_Role_ID'] = $row["Role_ID"];
+//         $_SESSION['IS_LOGIN'] = 'yes';
 
-        if($row['Role_ID']==1){
-          header('location: Administrator/index.php');
-        }
-        if($row['Role_ID']==2){
-          header('location: index.php');
-        }
-      }else{
-        $error = 'Please Enter Valid Username and Password';
+//         if($row['Role_ID']==1){
+//           header('location: Administrator/index.php');
+//         }
+//         if($row['Role_ID']==2){
+//           header('location: index.php');
+//         }
+//       }else{
+//         $error = 'Please Enter Valid Username and Password';
 
-      }
-  }
+//       }
+//   }
 
-}
+// }
 ?>
 <!DOCTYPE html>
 <title> Sign in </title>
@@ -100,7 +100,9 @@ if(($Username == "") && ($Password == "")){
 
 
 <div class="form-group animated shake" style = "padding-left: 15px; margin-top: 10px; color: rgb(250,0,0);">
-    <?php echo $error;?>
+    <?php 
+    // echo $error;
+    ?>
       <span class = "empty" style = "display: none;"> Wrong Username and Password </span>
       <span class = "incorrect" style = "display: none; color: red;"> Fields are empty! </span>
       <span class = "failed" style = "display: none;"> Password field empty! </span>
