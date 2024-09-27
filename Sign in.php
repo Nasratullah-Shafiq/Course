@@ -53,21 +53,19 @@ include_once "Assets/_Partial Components/".$class.".php";
     <link rel = "stylesheet" type = "text/css" href = "./Assets/CSS/bootstrap.min.css"/>
     <link rel = "stylesheet" type = "text/css" href = "./Assets/CSS/bootstrap.css"/>
     <link rel = "stylesheet" type = "text/css" href = "./Assets/CSS/animated.css">
-    <link rel = "stylesheet" href="Assets/css/font-awesome.css">
+    <link rel = "stylesheet" href="./Assets/css/font-awesome.css">
     <link rel = "icon" type="image/png" href="img/Graduation Cap_48px.png">
     
 
-   <script type="text/javascript" src="./Assets/js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="./Assets/js/bootstrap.js"></script>
+   <!-- <script type="text/javascript" src="./Assets/js/bootstrap.min.js"></script> -->
+   <!-- <script type="text/javascript" src="./Assets/js/bootstrap.js"></script> -->
    
    <script type="text/javascript" src="./Assets/js/jquery.js"  ></script>
    <script type="text/javascript" src = "./Assets/js/Change.js"></script>
-
+   
 </head>
 <body class="body"> 
-<script type="text/javascript">
-  
-</script>
+
 <div class = "form-control box" id="signin-form">
 
 <div class = "font">
@@ -79,7 +77,7 @@ include_once "Assets/_Partial Components/".$class.".php";
   <div class="form-group" >
   <div class="input-group inputBox" style="padding-left: 10px;">
     <span class = "input-group-addon" id = "span-signin"><i class="fa fa-user" aria-hidden="true"></i></span>
-        <input  type="text" class="form-control" name = "Username" id = "Username" required="">
+        <input  type="text" class="form-control" name = "Username" id = "Username">
         <label> Username </label>
     </div>
   </div>
@@ -87,13 +85,13 @@ include_once "Assets/_Partial Components/".$class.".php";
     <div class="form-group" >
     <div class="input-group inputBox"style="padding-left: 10px;">
     <span class = "input-group-addon" id = "span-signin"><i class='fa fa-lock'></i></span>
-        <input type="password" class="form-control" name = "Password" id = "Password" required="">
+        <input type="password" class="form-control" name = "Password" id = "Password">
         <label> Password </label>
     </div>
   </div>
 
   <div class="form-group" style="padding-left: 10px;">
-      <button type="submit" name = "submit" class="btn-signup-next" data-toggle="tooltip" id = "btn-signi" value = "Login here" data-placement="right" title="Insert Email & Password to Sign in">Sign in
+      <button type="submit" name = "submit" class="btn-signup-next" data-toggle="tooltip" id = "btn-signin" value = "Login here" data-placement="right" title="Insert Email & Password to Sign in">Sign in
   <i class='fa fa-user'></i>
    </button>
   </div>
@@ -114,9 +112,8 @@ include_once "Assets/_Partial Components/".$class.".php";
 </form>
 
 </div>
-<script src="./Assets/js/tests/vendor/jquery.min.js"></script>
-<script src="./Assets/tests/vendor/jquery.min.js"></script>
-<script src="./Assets/js/transition.js"></script>
+<!-- <script src="./Assets/js/tests/vendor/jquery.min.js"></script> -->
+<!-- <script src="./Assets/js/transition.js"></script>
 <script src="./Assets/js/tooltip.js"></script>
 <script src="./Assets/js/affix.js"></script>
 <script src="./Assets/js/alert.js"></script>
@@ -127,12 +124,9 @@ include_once "Assets/_Partial Components/".$class.".php";
 <script src="./Assets/js/modal.js"></script>
 <script src="./Assets/js/scrollspy.js"></script>
 <script src="./Assets/js/tab.js"></script>
-<script src="./Assets/js/transition.js"></script>
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
+<script src="./Assets/js/transition.js"></script> -->
+<script src="./Assets/js/jquery.js"  ></script>
+
 
 </body>
 </html>
