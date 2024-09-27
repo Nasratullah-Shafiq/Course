@@ -45,14 +45,17 @@ $mtd = new Method();
     <link href = "./Assets/js/owl.carousel.min.css" rel = "Stylesheet" type = "text/css"/>
     
     <!-- <link href = "./Assets/CSS/owl.theme.default.min.css" rel = "Stylesheet" type = "text/css"/> -->
-    <script type = "text/javascript" src = "jquery.js"></script>
-    <script type = "text/javascript" src = "bootstrap.js"></script>
-    <script type = "text/javascript" src = "Assets/js/popper.min.js"></script>
-    <script type = "text/javascript" src = "Assets/js/bootstrap.min.js"></script>
-    <script type = "text/javascript" src = "Assets/js/sweetalert.min.js"></script> 
+    <script type = "text/javascript" src = "./Assets/js/jquery.js"></script>
+    <!-- <script type = "text/javascript" src = "./Assets/js/bootstrap.js"></script> -->
+    <script type = "text/javascript" src = "./Assets/js/popper.min.js"></script>
+    <script type = "text/javascript" src = "./Assets/js/bootstrap.min.js"></script>
+    <script type = "text/javascript" src = "./Assets/js/sweetalert.min.js"></script> 
     
     
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Then load Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type = "text/javascript" src = "./Assets/js/Change.js"></script>
     <script type = "text/javascript" src = "./Assets/js/AjaxSearch.js"></script>
 
