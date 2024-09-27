@@ -45,11 +45,11 @@ $mtd = new Method();
     <link href = "./Assets/js/owl.carousel.min.css" rel = "Stylesheet" type = "text/css"/>
     
     <!-- <link href = "./Assets/CSS/owl.theme.default.min.css" rel = "Stylesheet" type = "text/css"/> -->
-    <script type = "text/javascript" src = "./Assets/js/jquery.js"></script>
-    <script type = "text/javascript" src = "./Assets/js/bootstrap.js"></script>
-    <script type = "text/javascript" src = "./Assets/js/popper.min.js"></script>
-    <script type = "text/javascript" src = "./Assets/js/bootstrap.min.js"></script>
-    <script type = "text/javascript" src = "./Assets/js/sweetalert.min.js"></script> 
+    <script type = "text/javascript" src = "jquery.js"></script>
+    <script type = "text/javascript" src = "bootstrap.js"></script>
+    <script type = "text/javascript" src = "Assets/js/popper.min.js"></script>
+    <script type = "text/javascript" src = "Assets/js/bootstrap.min.js"></script>
+    <script type = "text/javascript" src = "Assets/js/sweetalert.min.js"></script> 
     
     
     
@@ -517,14 +517,14 @@ $mtd = new Method();
         </div>
     </div> 
     <!-- End of Div show Edit Users -->
-    <!-- <script src="./Assets/js/jquery.js"></script> -->
-    <!-- <script src="./Assets/js/transition.js"></script> -->
-    <!-- <script src="./Assets/js/bootstrap.min.js"></script> -->
-    <!-- <script src="./Assets/js/dropdown.js"></script> -->
-    <!-- <script src="./Assets/js/tooltip.js"></script> -->
-    <!-- <script src="./Assets/js/affix.js"></script> -->
-    <!-- <script src="./Assets/js/alert.js"></script> -->
-    <!-- <script src="./Assets/js/modal.js"></script> -->
-    <!-- <script src="./Assets/js/carousel.js"></script> -->
-    <!-- <script src="./Assets/js/collapse.js"></script> -->
+    <script src="./Assets/js/jquery.js"></script>
+    <script src="./Assets/js/transition.js"></script>
+    <script src="./Assets/js/bootstrap.min.js"></script>
+    <script src="./Assets/js/dropdown.js"></script>
+    <script src="./Assets/js/tooltip.js"></script>
+    <script src="./Assets/js/affix.js"></script>
+    <script src="./Assets/js/alert.js"></script>
+    <script src="./Assets/js/modal.js"></script>
+    <script src="./Assets/js/carousel.js"></script>
+    <script src="./Assets/js/collapse.js"></script>
     
