@@ -1,14 +1,14 @@
 <?php
 ob_start();
 session_start();
-$filepath = realpath(dirname(__FILE__));
-include_once($filepath.'/Database.php');
-include_once($filepath.'/Format.php');
-include_once($filepath.'/Method.php');
-include_once($filepath.'/Users.php');
-spl_autoload_register(function($class){
-include_once "_Partial Components/".$class.".php";
-});
+// $filepath = realpath(dirname(__FILE__));
+include_once('Database.php');
+include_once('Format.php');
+include_once('Method.php');
+include_once('Users.php');
+// spl_autoload_register(function($class){
+// include_once "_Partial Components/".$class.".php";
+// });
 $db = new Database();
 $fm = new Format();
 $usr = new Users();
@@ -46,16 +46,13 @@ $mtd = new Method();
     
     <!-- <link href = "./Assets/CSS/owl.theme.default.min.css" rel = "Stylesheet" type = "text/css"/> -->
     <script type = "text/javascript" src = "./Assets/js/jquery.js"></script>
-    <!-- <script type = "text/javascript" src = "./Assets/js/bootstrap.js"></script> -->
+    <script type = "text/javascript" src = "./Assets/js/bootstrap.js"></script>
     <script type = "text/javascript" src = "./Assets/js/popper.min.js"></script>
     <script type = "text/javascript" src = "./Assets/js/bootstrap.min.js"></script>
     <script type = "text/javascript" src = "./Assets/js/sweetalert.min.js"></script> 
     
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<!-- Then load Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script type = "text/javascript" src = "./Assets/js/Change.js"></script>
     <script type = "text/javascript" src = "./Assets/js/AjaxSearch.js"></script>
 
@@ -520,14 +517,14 @@ $mtd = new Method();
         </div>
     </div> 
     <!-- End of Div show Edit Users -->
-    <script src="./Assets/js/jquery.js"></script>
-    <script src="./Assets/js/transition.js"></script>
-    <script src="./Assets/js/bootstrap.min.js"></script>
-    <script src="./Assets/js/dropdown.js"></script>
-    <script src="./Assets/js/tooltip.js"></script>
-    <script src="./Assets/js/affix.js"></script>
-    <script src="./Assets/js/alert.js"></script>
-    <script src="./Assets/js/modal.js"></script>
-    <script src="./Assets/js/carousel.js"></script>
-    <script src="./Assets/js/collapse.js"></script>
+    <!-- <script src="./Assets/js/jquery.js"></script> -->
+    <!-- <script src="./Assets/js/transition.js"></script> -->
+    <!-- <script src="./Assets/js/bootstrap.min.js"></script> -->
+    <!-- <script src="./Assets/js/dropdown.js"></script> -->
+    <!-- <script src="./Assets/js/tooltip.js"></script> -->
+    <!-- <script src="./Assets/js/affix.js"></script> -->
+    <!-- <script src="./Assets/js/alert.js"></script> -->
+    <!-- <script src="./Assets/js/modal.js"></script> -->
+    <!-- <script src="./Assets/js/carousel.js"></script> -->
+    <!-- <script src="./Assets/js/collapse.js"></script> -->
     
