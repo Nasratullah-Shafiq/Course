@@ -1,5 +1,5 @@
 <?php 
-$filepath = realpath(dirname(__FILE__));
+// $filepath = realpath(dirname(__FILE__));
 include_once('Database.php');
 include_once('Format.php');
 //session_start();
