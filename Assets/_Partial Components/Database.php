@@ -1,5 +1,3 @@
-
-
 <?php
 Class Database{
  public $host   = "localhost";
