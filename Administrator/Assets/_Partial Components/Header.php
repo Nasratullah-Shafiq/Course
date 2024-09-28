@@ -38,7 +38,7 @@ if(!isset($_SESSION['Change_Username'])){
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CHANGE Admin Panel</title>
+    <title>Course Admin Panel</title>
   
     <meta charset="utf-16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,8 +54,8 @@ if(!isset($_SESSION['Change_Username'])){
 
     <!-- Bootstrap -->
     <link href = "../img/Graduation Cap_48px.png" rel="icon" type="image/png" >
-<!--     <link href = "../Assets/CSS/font-awesome.css" rel="stylesheet">
-    <link href = "../Assets/CSS/font-awesome.min.css" rel="stylesheet"> -->
+     <link href = "../Assets/CSS/font-awesome.css" rel="stylesheet">
+    <link href = "../Assets/CSS/font-awesome.min.css" rel="stylesheet"> 
 
     <link href = "../Assets/CSS/all.css" rel="stylesheet">
     <script src = "../Assets/CSS/all.js"></script>

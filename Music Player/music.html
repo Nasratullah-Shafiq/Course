@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="music-style.css">
+	<link rel="stylesheet" type="text/css" href="../Assets/CSS/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../Assets/CSS/font-awesome.css">
+</head>
+<body>
+	
+<h1>Modern Music Player</h1>
+<div class="music-container">
+	<div class="music-info">
+		<h4 id = "title">Ukulele</h4>
+		<div class="progress-container">
+			<div class="progress">
+				 
+			</div>
+		</div>
+	</div>
+	<audio src="../Assets/Audio/7174.mp3" codecs="avc1.42E01E, mp4a.40.2" controls controlslist="nodownload" > </audio>
+	<div class="img-container">
+		<img src="../Assets/img/_Profile_Picture/4655.jpg" alt="music-cover" id = "cover">
+	</div>
+	<div class="navigation">
+		<button id = "prev" class="action-btn">
+			<i class="fa fa-backward"></i>
+		</button>
+		<button id = "play" class="action-btn action-btn-big">
+			<i class="fa fa-play"></i>
+		</button>
+		<button id = "next" class="action-btn">
+			<i class="fa fa-forward"></i>
+		</button>
+	</div>
+</div>
+<script type="text/javascript">
+	const musicContainer = ducument.querySelector('.music-container');
+const playBtn = document.querySelector('#play');
+const prevBtn = document.querySelector('#prev');
+const nextBtn = document.querySelector('#next');
+const audio = document.querySelector('#audio');
+const progress = document.querySelector('.progress');
+const progressContainer = document.querySelector('.progress-container');
+const title = document.querySelector('#title');
+const cover = document.querySelector('#cover');
+
+const songs = ['7174', '16186', '7174']
+
+let songIndex = 2
+
+loadSong(songs[songIndex])
+
+function loadSong(song){
+	title.innerText = song
+	audio.src = 'Assets/Audio/${song}.mp3'
+	cover.src = 'Assets/img/${song}.jpg'
+}
+
+function playSong(){
+	musicContainer.classList.add('play');
+	playBtn.querySelector('i.fa').classList.remove('fa-play')
+	playBtn.querySelector('i.fa').classList.add('fa-pause')
+
+}
+function pauseSong(){}
+//Event listener
+playBtn.addEventListener('click',()=>{
+	const isPlaying = musicContainer.classList.contains('play')	
+
+	if(isPlaying){
+		pauseSong()
+	}
+	else{
+		playSong()
+	}
+})
+</script>
+<script src="script.js"></script>
+</body>
+</html>
