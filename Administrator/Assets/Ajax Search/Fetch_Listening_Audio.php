@@ -9,5 +9,4 @@
             echo $get_listening_audio_data;
         }
     }
-
 ?>
