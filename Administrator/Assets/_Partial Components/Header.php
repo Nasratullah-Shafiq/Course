@@ -56,7 +56,7 @@ if(!isset($_SESSION['Change_Username'])){
      <link href = "../Assets/CSS/font-awesome.css" rel="stylesheet">
     <link href = "../Assets/CSS/font-awesome.min.css" rel="stylesheet"> 
 
-    
+
     <link href = "../Assets/CSS/all.css" rel="stylesheet">
     <script src = "../Assets/CSS/all.js"></script>
 
@@ -67,7 +67,7 @@ if(!isset($_SESSION['Change_Username'])){
     <!-- <link href = "../Assets/CSS/regular.min.css" rel="stylesheet"> -->
     <!-- <link href = "../Assets/CSS/regular.css" rel="stylesheet"> -->
     <!-- <link href = "../Assets/CSS/fontawesome.css" rel="stylesheet"> -->
-    <!-- <link href = "../Assets/CSS/fontawesome.min.css" rel="stylesheet"> -->
+    
 
     <link href = "../Assets/CSS/animated.css" rel="stylesheet" >
   
