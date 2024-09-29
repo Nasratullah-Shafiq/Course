@@ -13,7 +13,6 @@ if(!isset($_SESSION['Change_Username'])){
     header('Location: sign in.php');
 }
 
-
 if(isset($_GET['id'])){
    
     $Book_ID = $_GET['id'];
