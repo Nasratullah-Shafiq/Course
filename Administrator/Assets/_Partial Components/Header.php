@@ -45,12 +45,11 @@ if(!isset($_SESSION['Change_Username'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <link href = "../Assets/img/icons/Google_News_64.png" rel="icon" type="image/png" >
-    <link href = "./Assets/CSS/bootstrap.min.css" rel=" stylesheet">
-    <link href = "../Assets/CSS/animated.css" rel="stylesheet" >
-    <link href = "./Assets/CSS/toast.css" rel="stylesheet" >
+    <link href = "../Assets/img/icons/Google_News_64.png" rel="icon" type="image/png">
+    <link href = "./Assets/CSS/bootstrap.min.css" rel=" stylesheet"/>
+    <link href = "../Assets/CSS/animated.css" rel="stylesheet"/>
+    <link href = "./Assets/CSS/toast.css" rel="stylesheet"/>
     <link href = "./Assets/CSS/Change_Admin_Panel.css" rel = "Stylesheet" type = "text/css"/>
-       
 
     <!-- Bootstrap -->
     <link href = "../img/Graduation Cap_48px.png" rel="icon" type="image/png" >
@@ -60,7 +59,6 @@ if(!isset($_SESSION['Change_Username'])){
     <link href = "../Assets/CSS/all.css" rel="stylesheet">
     <script src = "../Assets/CSS/all.js"></script>
 
-
     <!-- <link href = "../Assets/CSS/all.css" rel="stylesheet"> -->
     <!-- <link href = "../Assets/CSS/all.min.css" rel="stylesheet"> -->
     <!-- <link href = "../Assets/CSS/solid.css" rel="stylesheet"> -->
@@ -68,7 +66,6 @@ if(!isset($_SESSION['Change_Username'])){
     <!-- <link href = "../Assets/CSS/regular.min.css" rel="stylesheet"> -->
     <!-- <link href = "../Assets/CSS/regular.css" rel="stylesheet"> -->
     <!-- <link href = "../Assets/CSS/fontawesome.css" rel="stylesheet"> -->
-
     <!-- <link href = "../Assets/CSS/fontawesome.min.css" rel="stylesheet"> -->
 
     <link href = "../Assets/CSS/animated.css" rel="stylesheet" >
