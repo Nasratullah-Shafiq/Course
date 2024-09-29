@@ -9,7 +9,6 @@
             echo $get_advertisement_data;
         }
     }
-
  	if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	
     	$Heading = $_POST["Heading"];
