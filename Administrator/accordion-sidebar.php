@@ -8,7 +8,6 @@
 // $totalNews = $mtd->getTotalNews();
 // $totalResearch = $mtd->getTotalResearch();
 // $totalUsers = $mtd->getTotalUser();
-// $totalStudent = $mtd->getTotalStudent();
 
 ?>
 <!DOCTYPE html>
