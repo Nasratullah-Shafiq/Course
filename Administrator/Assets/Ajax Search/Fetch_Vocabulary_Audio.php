@@ -9,5 +9,4 @@
             echo $get_vocabulary_audio_data;
         }
     }
-
 ?>
