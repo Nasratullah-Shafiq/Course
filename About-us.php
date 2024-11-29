@@ -27,7 +27,6 @@ include_once('./Assets/_Partial Components/Header.php');
                 }} ?>
 	</div>
 </div>
-
 <?php 
 include_once('./Assets/_Partial Components/Footer.php');
 ?>
