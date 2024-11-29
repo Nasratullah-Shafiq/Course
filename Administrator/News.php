@@ -168,10 +168,10 @@ include('./Assets/_Partial Components/Header.php');
                  <tr>
                     <td> <input type="checkbox" id="javascript"> </td>
                     <td> <?php echo $i ?></td>
-                    <td><?php echo $row["Heading"] ?></td> 
-                    <td><?php echo $row["Body"] ?></td> 
-                    <td><?php echo $row["Source"] ?></td>
-                    <td><?php echo $row["Date"] ?></td>
+                    <td> <?php echo $row["Heading"] ?></td> 
+                    <td> <?php echo $row["Body"] ?></td> 
+                    <td> <?php echo $row["Source"] ?></td>
+                    <td> <?php echo $row["Date"] ?></td>
                     <td style = "width: 6%;"> <a href="" class = "edit-news" id = <?php echo $row["News_ID"] ?> style="color: #32C5D2;" data-toggle="tooltip" data-placement="top" title="Edit News"> <i class = "fa fa-pencil"></i> </a></td>
                     <td style = "width: 7%;" > <a href="" class = "del" id = <?php echo $row["News_ID"] ?> style="color: #D05454;"  data-toggle="tooltip" data-placement="top" title="Delete News"> <i class = "fa fa-trash"></i> </a> </td>
                  </tr>
