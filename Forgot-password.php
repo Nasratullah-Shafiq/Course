@@ -68,6 +68,7 @@ include_once "Assets/_Partial Components/".$class.".php";
   	</div>
 </form>
     
+
 </div>
 <script src="./js/tests/vendor/jquery.min.js"></script>
 <script src="./js/transition.js"></script>
