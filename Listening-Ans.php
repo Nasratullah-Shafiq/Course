@@ -13,7 +13,7 @@ if(!isset($_SESSION['Change_Username'])){
 }
 
 if(isset($_GET['id'])){
-   
+  
 
     $Book_ID = $_GET['id'];
     $bookById = $mtd->getBookByID($Book_ID);
