@@ -22,7 +22,6 @@ else{
 
 $Like = $mtd->getLike($News_ID);
 
-	
 ?>
 <div class="container">
 		<div class="row">
