@@ -23,6 +23,7 @@ else{
 $Like = $mtd->getLike($News_ID);
 
 ?>
+
 <div class="container">
 		<div class="row">
 			<div class="col-md-12 news-active-title">
