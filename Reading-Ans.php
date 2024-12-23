@@ -28,7 +28,6 @@ else{
 <html>
 <head>
 	<title> Answer </title>
-
 	   	<meta name="viewport" content=" width=device-width, initial-scale=1" />
    	 	<link href = "./Assets/CSS/signin-style.css" rel = "Stylesheet" type = "text/css" />
    		<link href = "./Assets/CSS/Online_Quiz_styled.css" rel = "Stylesheet" type = "text/css" />
