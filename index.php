@@ -10,7 +10,6 @@ $Carousel = $mtd->getSlideData();
     // $ecrypt_1 = (($rows['News_ID']*123456789*9999)/999999);
     // $link = "Details?id=".urlencode(base64_encode($ecrypt_1));
 ?>
-
 <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
