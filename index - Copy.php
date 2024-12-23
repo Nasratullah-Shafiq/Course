@@ -63,7 +63,6 @@ $Carousel = $mtd->getSlideData();
                     </div>
                   </div>
                 </div>
-                     
                   <?php }}?>
         <!-- <div class="item">
           <img class="second-slide" src="./Assets/img/testingcentre-banner.jpg" alt="Second slide">
