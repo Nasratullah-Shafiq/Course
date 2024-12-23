@@ -10,3 +10,4 @@ header('Location: sign in.php');
 session_destroy();
 
 ?>
+
