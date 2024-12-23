@@ -18,7 +18,6 @@ if(isset($_SESSION['Change_Username'])){
 
 
 ?>
- 
     	<div class="container" style="margin-top: 20px;">
     		<div class="row">
                 <div class="col-sm-3">
