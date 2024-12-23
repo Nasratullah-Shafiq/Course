@@ -67,7 +67,6 @@ include_once "Assets/_Partial Components/".$class.".php";
    		<span class = "error" style = "display: none;"> Email and Username not matched </span>
   	</div>
 </form>
-    
 
 </div>
 <script src="./js/tests/vendor/jquery.min.js"></script>
