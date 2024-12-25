@@ -20,6 +20,7 @@ $Afg_News = $mtd->getResearch();
             <div class="panel-body">
               <!-- <div class = "col-md-12 news-detail"id = "resultNews"> -->
 			<?php 
+			
 				$Research = $mtd->getResearchByID($Research_ID);
 
                     if(!$Research){
