@@ -150,13 +150,21 @@ class Method{
 		$getData = $this->db->select($query);
 		return $getData;
 	}
-	public function getTotalContactByStatus(){
-		$query = "SELECT * from Contact_Us where Status = '1'";
-		mysqli_set_charset($this->db->link, 'UTF8');
-		$getResult = $this->db->select($query);
-		$total =$getResult->num_rows;
-		return $total;
-	}
+public function getTotalContactByStatus()
+{
+    $query = "SELECT COUNT(*) AS total FROM Contact_Us WHERE Status = '1'";
+
+    mysqli_set_charset($this->db->link, "utf8");
+
+    $result = $this->db->select($query);
+
+    if ($result) {
+        $row = mysqli_fetch_assoc($result);
+        return (int)$row['total'];
+    }
+
+    return 0;
+}
 	public function getContactUs(){
 		$query = "select * from Contact_Us";
 		mysqli_set_charset($this->db->link, 'UTF8');
