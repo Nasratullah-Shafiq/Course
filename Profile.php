@@ -16,7 +16,6 @@ if(isset($_SESSION['Change_Username'])){
 //     header("location: index.php");
 // }
 
-
 ?>
     	<div class="container" style="margin-top: 20px;">
     		<div class="row">
