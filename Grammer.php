@@ -28,7 +28,6 @@ else{
                 <!-- BEGIN DIV FOR SHOWING QUESTIONS-->
                 <div class = "col-lg-9">
                 <div class="panel panel-default">
-                
                     <div class="panel-body">
                         <?php 
                 /* THROUGH THE FOLLOWING FORM THE QUESTIONS IS BEING SUBMITED TO QuizAnswer.php WHICH THE RESULT IS BEING SHOWN  */
