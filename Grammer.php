@@ -19,7 +19,6 @@ else{
     header('Location: index.php');
 }
 ?>
-
 <div class="container container-index">
             <div class="row">
                 <div class="col-sm-3">
