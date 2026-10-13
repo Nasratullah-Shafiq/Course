@@ -1,7 +1,6 @@
 <?php 
 include_once('./Assets/_Partial Components/Header.php');
 ?>
-
 <div class="container"style="padding-right: 0px; padding-left: 0px;">
 	<div class="col-md-10" style="padding-right: 0px; padding-left: 0px;">
 		<?php 
