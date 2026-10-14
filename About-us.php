@@ -9,6 +9,7 @@ include_once('./Assets/_Partial Components/Header.php');
           if(!$About_Us){
               echo "No Data In About_Us Table";
             }
+            
             else{
               if($About_Us->num_rows>0){
                 while ($result = $About_Us->fetch_assoc()) { ?>
