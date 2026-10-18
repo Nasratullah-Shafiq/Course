@@ -20,7 +20,7 @@ include_once('./Assets/_Partial Components/Header.php');
 		<div class="col-md-8">         
             <?php echo $result['Body']; ?>                                     
 		</div>
-    
+
 		<?php 
               }}
               else{
@@ -28,6 +28,7 @@ include_once('./Assets/_Partial Components/Header.php');
                 }} ?>
 	</div>
 </div>
+
 <?php 
 include_once('./Assets/_Partial Components/Footer.php');
 ?>
