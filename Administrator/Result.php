@@ -9,11 +9,14 @@ include('./Assets/_Partial Components/Header.php');
 <!-- BEGIN LEFT SIDE BAR -->
     <div class="left-side-bar">
 
+
         <?php include('./Assets/_Partial Components/Navigation.php');?>
     </div>
+
     <!-- END OF LEFT SIDE BAR DIV-->
     <!-- BEGIN RIGHT SIDE BAR DIV-->
     <div class="right-side-bar">
+      
         <!-- <div class="row" style="background: red;"> -->
             <div calss = "col-md-9">
                 <h1 style = "color: #2C3E50"> <small> Home <i class = "fa fa-chevron-right" style = "font-size: 15px; padding-left: 5px; padding-right: 5px;"> </i> Results </small></h1><hr>
