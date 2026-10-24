@@ -12,7 +12,6 @@ include('./Assets/_Partial Components/Header.php');
 
         <?php include('./Assets/_Partial Components/Navigation.php');?>
     </div>
-
     
     <!-- END OF LEFT SIDE BAR DIV-->
     <!-- BEGIN RIGHT SIDE BAR DIV-->
