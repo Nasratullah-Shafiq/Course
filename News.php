@@ -12,6 +12,7 @@ if (isset($_GET['id'])) {
  	$data = $_GET['id'];
  	
 	}
+	
 else{
     header('Location: index.php');
 }

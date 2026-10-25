@@ -10,6 +10,7 @@ $db = new Database();
 	
 		<div class="col-md-8 news-bod">
 			<div class="panel panel-default">
+                
             <!-- <div class="panel-heading"> -->
               <!-- <h3 class="panel-title"> Research </h3> -->
             <!-- </div> -->

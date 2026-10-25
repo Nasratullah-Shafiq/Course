@@ -14,6 +14,7 @@ foreach ($_GET as $key => $data) {
 if (isset($_GET['id'])) {
     $data = $_GET['id'];
     
+    
     }
 else{
     header('Location: index.php');

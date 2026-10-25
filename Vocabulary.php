@@ -16,6 +16,7 @@ if(!isset($_SESSION['Change_Username'])){
 //     header("location: index.php");
 // }
 
+
 foreach ($_GET as $key => $data) {
         $data2 = $_GET[$key] = base64_decode(urldecode($data));
         $Book_ID = ((($data2*999999)/9999)/123456789);

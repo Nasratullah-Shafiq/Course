@@ -12,6 +12,7 @@ if(isset($_SESSION['Change_Username'])){
     $row = $UsersByUsername->fetch_assoc();
     $chk_img = $row['Image'];
 }
+
 // else{
 //     header("location: index.php");
 // }

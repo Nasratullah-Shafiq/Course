@@ -8,7 +8,6 @@ $ans = new Grammer();
 $mtd = new Method();
 $answer = $ans->answer($_POST);
 
-
 if(!isset($_SESSION['Change_Username'])){
     header('Location: sign in.php');
 }

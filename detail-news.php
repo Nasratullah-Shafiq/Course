@@ -11,6 +11,7 @@ if (isset($_GET['id'])) {
  	$NewsByID = $mtd->getNewsByID($News_ID);
     $rows = $NewsByID->fetch_array();
 	}
+	
 else{
     header('Location: index.php');
 } 
