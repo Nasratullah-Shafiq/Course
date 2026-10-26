@@ -12,7 +12,6 @@ include('./Assets/_Partial Components/Header.php');?>
     </script>
   </head>
 
-
     <h1>TinyMCE Quick Start Guide</h1>
     <form method="post">
       <textarea id="mytextarea">Hello, World!</textarea>

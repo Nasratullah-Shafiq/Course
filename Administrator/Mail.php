@@ -1,7 +1,6 @@
 <?php 
 
 include('./Assets/_Partial Components/Header.php');
-
 ?>
 
 <div class="row" id="row">

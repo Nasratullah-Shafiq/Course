@@ -9,7 +9,6 @@
             echo $get_user_data;
         }
     }
-
     $connect = mysqli_connect("localhost", "root", "", "change");
     
 
